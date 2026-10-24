@@ -4,9 +4,88 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>testproject</title>
-
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>hello attyzen</h1>
+<header class="hero">
+  <nav class="nav">
+    <a class="brand" href="#top">Attyzen</a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="hero-inner" id="top">
+    <p class="eyebrow">Portfolio</p>
+    <h1>Hello, I'm <span class="glow">Attyzen</span>.</h1>
+    <p class="lead">[One line about what you do — e.g. your role and what you love building.]</p>
+    <div class="cta">
+      <a class="btn primary" href="#work">See my work</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="about" class="section">
+    <h2>About</h2>
+    <div class="about">
+      <div class="avatar" aria-hidden="true">A</div>
+      <div>
+        <p>[A short paragraph about you: who you are, where you are based, what you focus on.]</p>
+        <p>[A second paragraph: what you are working on now, or what you are looking for.]</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <h2>Selected work</h2>
+    <div class="grid">
+      <article class="card">
+        <p class="tag">[Year · Type]</p>
+        <h3>[Project one]</h3>
+        <p>[What it is, your part in it, and the result.]</p>
+      </article>
+      <article class="card">
+        <p class="tag">[Year · Type]</p>
+        <h3>[Project two]</h3>
+        <p>[What it is, your part in it, and the result.]</p>
+      </article>
+      <article class="card">
+        <p class="tag">[Year · Type]</p>
+        <h3>[Project three]</h3>
+        <p>[What it is, your part in it, and the result.]</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="chips">
+      <li>[Skill]</li>
+      <li>[Skill]</li>
+      <li>[Skill]</li>
+      <li>[Tool]</li>
+      <li>[Tool]</li>
+      <li>[Language]</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Let's work together</h2>
+    <p>[A sentence inviting people to reach out.]</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/johnhojohn969">GitHub</a>
+      <a class="btn ghost" href="#">[Other link]</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© Attyzen</p>
+</footer>
+
 </body>
 </html>
